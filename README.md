@@ -99,7 +99,7 @@ A future version of Shimport may use web workers to do the transformation off th
 
 Shimport *only* transpiles the `import` and `export` statements in your code. If you want to use other features in browsers that do not support them, they will need to be transpiled separately.
 
-Shimport also expects to be able to use `Array.from`, `fetch`, `Map` and `URL`. On browsers like Internet Explorer, you will need to bring your own polyfills. One easy way to get these is to use something like [Polyfill.io](https://polyfill.io).
+Shimport also expects to be able to use `Array.from`, `fetch`, `Map` and `URL`. On browsers like Internet Explorer, you will need to bring your own polyfills.
 
 
 ## Caveats
